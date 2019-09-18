@@ -1,0 +1,176 @@
+[API Trapper      (3070:2bf0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1018:2290)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1320: c10)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (33d8:1658)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (33d8:1c1c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (33d8:1c1c)] Load Network Traffic Analyzers:
+[Network Analyzer (33d8:1c1c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (33d8:1c1c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (33d8:1c1c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (33d8:1c1c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (33d8:1c1c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (33d8:1c1c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (33d8:1c1c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (33d8:1c1c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (33d8:29c4)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1001   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Web Request      (33d8:29c4)] "GET /?cid=201680149"   
+[Network Analyzer (33d8:29c4)]   (Sid:  1) Client -> Server @ : 622 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (33d8:29c4)]   (Sid:  1) Server -> Client : 192 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /webtours"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 516 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 506 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  1) WebSocket handshake detected, switching connection type from HTTP to WebSocket
+[Network Analyzer (33d8:29c4)]   (Sid:  1) Client -> Server @ : 128 bytes (Service=WEBS)
+[Network Analyzer (33d8:29c4)]   (Sid:  1) Server -> Client : 48 bytes  (Service=WEBS)
+[Network Analyzer (33d8:29c4)]   (Sid:  1) Server -> Client : 3444 bytes  (Service=WEBS)
+[Web Request      (33d8:29c4)] "GET /webtours/"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 663 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /webtours/header.html"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 564 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (33d8:29c4)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 465 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (33d8:29c4)]   (Sid:  3) Client -> Server @ : 575 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (33d8:29c4)]   (Sid:  3) Server -> Client : 1021 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /webtours/images/webtours.png"   
+[Network Analyzer (33d8:29c4)]   (Sid:  4) Client -> Server @ : 466 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  4) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  3) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 616 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/home.html"   
+[Network Analyzer (33d8:29c4)]   (Sid:  4) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  4) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 497 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /favicon.ico"   
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Client -> Server @ : 466 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (33d8:29c4)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (33d8:29c4)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[API Trapper      (2df8:26e8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Web Request      (33d8:29c4)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Client -> Server @ : 869 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Client -> Server @ : 721 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 716 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Web Request      (33d8:29c4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  7) Client -> Server @ : 617 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (33d8:29c4)]   (Sid:  7) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  8) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:29c4)]   (Sid:  8) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Client -> Server @ : 615 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Server -> Client : 1049 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Client -> Server @ : 755 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Client -> Server @ : 738 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 739 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 4515 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 621 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Client -> Server @ : 615 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  8) Client -> Server @ : 623 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  8) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 1118 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 2700 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (33d8:29c4)]   (Sid:  5) Connection Terminated (by Server)
+[Web Request      (33d8:29c4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 1012 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 2962 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[API Trapper      ( ab8:1a14)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (33d8:29c4)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (33d8:29c4)]   (Sid:  9) Connection Terminated (by Server)
+[Web Request      (33d8:29c4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 1153 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 2829 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 1103 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 737 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 813 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 719 bytes (Service=HTTP)
+[Network Analyzer (33d8:1c1c)] Address lookup for MISAKA = 10.0.75.1
+[Network Analyzer (33d8:1c1c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Client -> Server @ : 702 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 8654 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Client -> Server @ : 589 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 1128 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Client -> Server @ : 734 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Client -> Server @ : 613 bytes (Service=HTTP)
+[Web Request      (33d8:29c4)] "GET /WebTours/home.html"   
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Client -> Server @ : 709 bytes (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid:  6) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 1747 bytes  (Service=HTTP)
+[Network Analyzer (33d8:29c4)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)

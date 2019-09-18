@@ -1,0 +1,16 @@
+POST /cgi-bin/login.pl HTTP/1.1
+Cookie: MSO=SID&1568784759
+Content-Type: application/x-www-form-urlencoded
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home
+Origin: http://127.0.0.1:1080
+Sec-Fetch-Mode: nested-navigate
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8,ms;q=0.7
+Accept: */*
+Host: 127.0.0.1:1080
+Content-Length: 97
+Connection: Keep-Alive
+Cache-Control: no-cache
+
